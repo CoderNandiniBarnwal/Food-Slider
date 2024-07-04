@@ -1,0 +1,45 @@
+<!--Image Changer Web Page
+
+Problem Statement:
+Build a dynamic web page that allows users to change images interactively. This HTML, CSS, and JavaScript project, "Image Changer Web Page," aims to provide hands-on experience in creating a visually appealing user interface with seamless image transitions.
+
+Project Features:
+
+Image Display:
+
+Design a section on the webpage to display images. Initially, showcase a default image.
+Image Thumbnails or Buttons:
+
+Implement thumbnails or buttons representing different images. Users can click on these to change the displayed image.
+Transition Effects:
+
+Add smooth transition effects between image changes. Use animations or fades to create visually pleasing transitions.
+Dynamic Image Loading:
+
+Load images dynamically based on user interactions. When a thumbnail or button is clicked, the corresponding image should replace the current one.
+User Friendly Interface:
+
+Ensure a user-friendly interface that encourages easy navigation between images. Provide visual cues to guide users.-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 17</title>
+</head>
+<link rel="stylesheet" href="project17.css">
+
+<body>
+    <div id="bigbox">
+        <img src="paasta.jpg" alt="default-image" id="mainbox">
+        <div id="rest3">
+            <img src="momo.jpg" alt="Image 1" class="i1" onclick="changeImage('momo.jpg')">
+            <img src="chicken.jpg" alt="Image 2" class="i1" onclick="changeImage('chicken.jpg')">
+            <img src="pizza.jpg" alt="Image 3" class="i1" onclick="changeImage('pizza.jpg')">
+        </div>
+    </div>
+</body>
+<script src="project17.js"></script>
+
+</html>

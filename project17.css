@@ -1,0 +1,31 @@
+#bigbox {
+    width: 50%;
+    height: 600px;
+    margin: auto;
+    margin-top: 8vh;
+    background-color: aliceblue;
+}
+
+#mainbox {
+    width: 90%;
+    height: 350px;
+    margin-top: 5vh;
+    margin-left: 35px;
+    transition: opacity 0.5 ease;
+}
+
+#rest3 {
+    display: flex;
+}
+
+.i1 {
+    width: 27%;
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 28px;
+    cursor: pointer;
+}
+
+body {
+    background: radial-gradient(yellow, black);
+}
